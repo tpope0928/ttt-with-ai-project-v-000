@@ -43,7 +43,7 @@ class Game
   end
   
   def turn
-    puts ""
+    puts "Please enter 1 "
   end
   
 end
