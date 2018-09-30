@@ -27,7 +27,7 @@ class Game
   end
   
   def draw?
-    
+    full? || 
   end
   
   def over?
