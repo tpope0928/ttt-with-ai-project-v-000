@@ -57,7 +57,7 @@ class Game
   def play 
     while !over?
       turn
-    elsif
+    
       
   end
 end
