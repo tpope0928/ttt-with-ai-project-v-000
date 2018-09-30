@@ -1,7 +1,8 @@
 module Players
   class Human < Player
     def move
-      puts ""
+      puts "Please enter your move"
+      
     
   end 
 end
