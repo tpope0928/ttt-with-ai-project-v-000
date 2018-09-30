@@ -22,6 +22,6 @@ class Board
   end
   
   def full?
-    cells.all?
+    cells.all?{
   end
 end
