@@ -19,7 +19,7 @@ class Game
   end
   
   def current_player
-    @board.turn_count % 2 == 0 ? 
+    @board.turn_count % 2 == 0 ? player_1 : 
   end
   
 end
