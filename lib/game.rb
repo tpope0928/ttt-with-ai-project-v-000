@@ -44,7 +44,7 @@ class Game
   
   def turn
     puts "Please enter 1-9:"
-    
+    input = current_player
   end
   
 end
