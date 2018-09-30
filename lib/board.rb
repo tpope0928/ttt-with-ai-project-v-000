@@ -34,7 +34,7 @@ class Board
   end
   
   def valid_move?(input)
-    
+    input.
   end
   
 end
