@@ -22,6 +22,10 @@ class Game
     @board.turn_count % 2 == 0 ? player_1 : player_2
   end
   
+  def winner
+    
+    
+  
   def won?
     WIN_COMBINATIONS.detect do |winner|
       @board.cells[winner[0]] == @board.cells[winner[1]] && @board.cells[winner[1]] == @board.cells[winner[2]]
