@@ -34,7 +34,7 @@ class Board
   end
   
   def valid_move?(input)
-    input.to_i.
+    input.to_i.between?
   end
   
 end
