@@ -33,4 +33,8 @@ class Board
     position(input) == "X" || position(input) == "O"
   end
   
+  def valid_move?
+    
+  end
+  
 end
