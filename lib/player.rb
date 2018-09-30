@@ -1,6 +1,6 @@
 class Player
   
-  def initialize
+  def initialize(token)
     
   end
 
