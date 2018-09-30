@@ -18,7 +18,7 @@ class Board
   end
   
   def position(input)
-    
+    cells[input.to]
     
   end
 end
