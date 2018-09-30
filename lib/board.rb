@@ -25,5 +25,8 @@ class Board
     cells.all?{|character| character == "X" || character == "O"}
   end
   
+  def turn_count
+    
+  end
   
 end
