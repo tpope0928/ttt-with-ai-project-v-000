@@ -24,7 +24,7 @@ class Game
   
   def winner
     
-    
+  end
   
   def won?
     WIN_COMBINATIONS.detect do |winner|
