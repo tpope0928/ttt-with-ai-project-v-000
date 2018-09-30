@@ -51,7 +51,7 @@ class Game
       puts "Invalid. PLease try again"
       turn
     end
-    
+    board.display
   end
   
   
