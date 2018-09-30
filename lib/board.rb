@@ -38,7 +38,7 @@ class Board
   end
   
   def update(input, player)
-    
+    cells[input]
   end
   
 end
