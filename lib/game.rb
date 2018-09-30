@@ -49,6 +49,7 @@ class Game
       board.update(input, current_player)
     elsif !board.valid_move?(input)
       puts "Invalid. PLease try again"
+      turn
   end
   
   
