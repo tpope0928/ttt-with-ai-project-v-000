@@ -60,7 +60,8 @@ class Game
     end
     if won?
       puts "Congradulations #{winner}!"
-    elsif 
+    elsif draw?
+      
     
       
   end
