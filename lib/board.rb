@@ -20,4 +20,8 @@ class Board
   def position(input)
     cells[input.to_i-1]
   end
+  
+  def full?
+    
+  end
 end
