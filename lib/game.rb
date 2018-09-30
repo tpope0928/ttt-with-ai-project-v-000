@@ -47,7 +47,8 @@ class Game
     input = current_player.move(board)
     if board.valid_move?(input)
       board.update(input, current_player)
-    elsif !board.valid_move?
+    elsif !board.valid_move?(input)
+      puts 
   end
   
 end
