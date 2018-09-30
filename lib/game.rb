@@ -23,7 +23,7 @@ class Game
   end
   
   def won?
-    
+    WIN_COMBINATIONS.detect 
   end
   
   def draw?
