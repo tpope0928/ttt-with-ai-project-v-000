@@ -48,7 +48,8 @@ class Game
     if board.valid_move?(input)
       board.update(input, current_player)
     elsif !board.valid_move?(input)
-      puts 
+      puts "Invalid. PLease try again"
   end
+  
   
 end
