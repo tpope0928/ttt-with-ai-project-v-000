@@ -50,6 +50,8 @@ class Game
     elsif !board.valid_move?(input)
       puts "Invalid. PLease try again"
       turn
+    end
+    
   end
   
   
