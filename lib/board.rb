@@ -22,6 +22,6 @@ class Board
   end
   
   def full?
-    cells.all?{|character| character == 
+    cells.all?{|character| character == "X" || 
   end
 end
