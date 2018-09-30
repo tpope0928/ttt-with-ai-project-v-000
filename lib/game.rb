@@ -54,5 +54,7 @@ class Game
     board.display
   end
   
-  
+  def play 
+    
+  end
 end
