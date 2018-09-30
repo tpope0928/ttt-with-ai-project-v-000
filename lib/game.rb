@@ -19,7 +19,7 @@ class Game
   end
   
   def current_player
-    
+    @board
   end
   
 end
