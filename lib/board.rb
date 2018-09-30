@@ -29,6 +29,8 @@ class Board
     cells.count{|character| character == "X" || character == "O"}
   end
   
-  
+  def taken?
+    
+  end
   
 end
