@@ -27,7 +27,7 @@ class Game
   end
   
   def draw?
-    @board.full?
+    @board.full? && 
   end
   
   def over?
