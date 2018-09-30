@@ -37,7 +37,8 @@ class Game
   end
   
   def winner
-    if winning_combo 
+    if winning_combo = won?
+      
   end
   
   
