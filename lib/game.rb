@@ -59,7 +59,7 @@ class Game
       turn
     end
     if won?
-      puts 'Congradulations #{winner}'
+      puts "Congradulations #{winner}!"
     
       
   end
